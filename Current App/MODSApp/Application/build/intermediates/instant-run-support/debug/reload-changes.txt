@@ -1,0 +1,14 @@
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\cardview\R$style$override.class
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\android\actionbarcompat\styled\R$id$override.class
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\android\actionbarcompat\styled\R$styleable$override.class
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\android\actionbarcompat\styled\R$menu$override.class
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\android\actionbarcompat\styled\R$drawable$override.class
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\cardview\R$color$override.class
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\android\actionbarcompat\styled\R$dimen$override.class
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\android\actionbarcompat\styled\R$color$override.class
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\android\actionbarcompat\styled\R$integer$override.class
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$color$override.class
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\android\actionbarcompat\styled\R$string$override.class
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\android\actionbarcompat\styled\R$style$override.class
+CHANGED,C:\Users\xxddr\Desktop\Andres\MODSApp\Application\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\android\actionbarcompat\styled\R$layout$override.class
