@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_71823901adb4baa923a9827fe14dbdfb513b5d2b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d156de051ebc305273918e8fdfee7cbae36cf3eb">
+        <dex dex="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cb09a430ed882a17af90662314c2a9405a18279c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.3.0_3a717d561d69a19cc31c4b7f013dcc4a2d96c393\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_5e3f9cdc7cef93cfaaf15779ee859860e35bf1a9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\xxddr\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_04f1eeae8e95181e852a6ef83332ea57b08ab46d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="003ebdacd5f75067b8724f92bd5eefa323d870aa">
+        <dex dex="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-gridlayout-v7-23.3.0_42c846e20411b7e8bcec5273873d18bc254c7fda\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="118594fc56e73a65fa44ef509e106108f397aab6">
+        <dex dex="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3a7da57f14159934d2c3c01e30e43cd6093d40ef\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="C:\Users\xxddr\Desktop\Andres\Github\Project-Design\Current App\MODSAppV1\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-18.0.0_01b9bec0a2d35ae3afbe55deed8876c4a29ac772\classes.dex" />
+    </item>
+
+</items>
