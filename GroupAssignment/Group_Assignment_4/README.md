@@ -20,3 +20,7 @@ TODO:
 * Incorporate the live twitter feed, or, if time does not permit, delete the concept from the current app.
 * Add the icons from the design teams of each exhibit.
 * **It's possible that the majority of the work will be shifted from this code sample to one of the code samples in the book, as it seems to be easier to work with**
+
+RUNDOWN:
+* Andres: Identifying usable code samples to implement into the main, will be responsible for coding the intents/broadcast intents and the interactions with the database.
+* Kianie: Designig the UI (i.e.: Modifying the theme to match MODS, implementing the logos, making the application look presentable).
