@@ -14,7 +14,17 @@
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="73dp">
+        android:layout_marginTop="29dp">
     </TextView>
-    
-RelativeLayout>
+
+    <ImageButton
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="@android:dimen/thumbnail_height"
+        android:id="@+id/imageButton"
+        android:layout_marginTop="73dp"
+        android:src="@drawable/discoverycentericon"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="29dp" />
+
+</RelativeLayout>

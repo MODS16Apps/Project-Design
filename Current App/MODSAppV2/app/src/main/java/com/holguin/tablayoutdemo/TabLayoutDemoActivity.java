@@ -25,13 +25,13 @@ public class TabLayoutDemoActivity extends AppCompatActivity {
                 (TabLayout) findViewById(R.id.tab_layout);
 
         tabLayout.addTab(tabLayout.newTab().setIcon(
-                android.R.drawable.ic_dialog_email));
+                android.R.drawable.ic_menu_share));
         tabLayout.addTab(tabLayout.newTab().setIcon(
                 android.R.drawable.ic_dialog_dialer));
         tabLayout.addTab(tabLayout.newTab().setIcon(
                 android.R.drawable.ic_dialog_map));
         tabLayout.addTab(tabLayout.newTab().setIcon(
-                android.R.drawable.ic_dialog_info));
+                android.R.drawable.ic_menu_info_details));
 
 
         final ViewPager viewPager =
