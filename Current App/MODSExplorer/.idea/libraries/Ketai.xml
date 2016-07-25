@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Ketai">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/Ketai.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
