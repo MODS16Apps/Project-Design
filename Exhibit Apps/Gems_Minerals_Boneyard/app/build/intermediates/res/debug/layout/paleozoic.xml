@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newboneyardscreen"
+    android:weightSum="1"
+>
+
+    <ImageButton
+    android:layout_width="80dp"
+    android:layout_height="60dp"
+    android:id="@+id/imageButton12"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/frameLayout1"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="25dp"
+    android:background="@drawable/left_arrow" />
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton13"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/right_arrow" />
+
+    <ScrollView
+        android:layout_width="500dp"
+        android:layout_height="580dp"
+        android:id="@+id/textView34"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/bigboneyardrect"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Paleozoic Era: Took place from around 541 to 252 million years ago. The Paleozoic Era was a time of many striking changes for Earth’s climate, geology, and natural life. Split into 6 geologic periods, each of brought along further change and diversity to multiple parts of Earth, the Paleozoic remains the era in which life became prominent and diversified.
+•	Cambrian: (541-485 mya) The age of multiple celled life and aquatic armored arthropods. The period of the boom in evolution.
+•	Ordovician: (485-440 mya) The age of the first primitive fish, cephalopods, and coral.
+•	Silurian: (440-415 mya) The age of mass evolution of jawless fish into primitive jawed fish.
+•	Devonian: (415-360 mya) The age of the fish. This period boasted a huge array of more diverse fish. The first amphibians evolved.
+•	Carboniferous: (360-300 mya) The age of giant amphibians, insects, and arachnids. This period was mostly swamp at the time with the first reptiles evolving.
+•	Permian: (300-250 mya) The age of mammal-like reptiles. This period was very dry at the time.
+
+"
+            android:id="@+id/textView35"
+            android:layout_alignLeft="@+id/scrollView"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_above="@+id/imageView4"
+            android:editable="true"
+            android:textColor="#ff000000"
+            android:textSize="28dp" />
+
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="85dp"
+        android:id="@+id/textView2"
+        android:textSize="60dp"
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"
+        android:textColor="#ff000000"
+        android:gravity="center"
+        android:text="Paleozoic"
+        android:background="@drawable/button_blue"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200.5dp"
+        android:layout_height="80dp"
+        android:text="Home"
+        android:id="@+id/button5"
+        android:textSize="30dp"
+        android:background="@drawable/button_blue"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton15"
+        android:background="@drawable/left_arrow"
+        android:layout_alignBottom="@+id/button5" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Lindsey_2/AndroidStudioProjects/minerals_boneyard_app/app/src/main/res/layout/paleozoic.xml -->

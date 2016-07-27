@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/blue_app_screen">
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    </FrameLayout>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton12"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/left_arrow" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200.5dp"
+        android:layout_height="80dp"
+        android:text="Home"
+        android:id="@+id/button3"
+        android:textSize="30dp"
+        android:background="@drawable/button_orange"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/frameLayout1" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200.5dp"
+        android:layout_height="80dp"
+        android:text="Game"
+        android:id="@+id/button4"
+        android:textSize="30dp"
+        android:background="@drawable/button_orange"
+        android:textStyle="bold"
+        android:layout_marginRight="25dp"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/copper_x"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:id="@+id/scrollView"
+        android:fillViewport="false"
+        android:background="@drawable/scrollinfo_x"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="65dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignRight="@+id/button4" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Location: Very common worldwide                Composition: Cu; Copper.                                 Category: Transition Metal                             Uses: Construction, Conduct Electricity                                            Cool Facts: One of the first metals to be worked into implements and the first metal to be smelted from ores; pure element."
+            android:id="@+id/textView14"
+            android:layout_alignBottom="@+id/scrollView"
+            android:layout_alignLeft="@+id/scrollView"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#ff000000"
+            android:textSize="32dp" />
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Copper"
+        android:id="@+id/textView33"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignRight="@+id/imageView" />
+</RelativeLayout><!-- From: file:/C:/Users/Lindsey_2/AndroidStudioProjects/minerals_boneyard_app/app/src/main/res/layout/copper.xml -->

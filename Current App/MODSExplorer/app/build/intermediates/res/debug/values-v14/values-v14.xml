@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/osmarjuniorcr/Desktop/Museum%20Ft%20lauderdale/MODSExplorer/app/src/main/res/values-v14/styles.xml -->
+    <!-- From: file:/C:/Users/xxddr/Desktop/Andres/Github/Project-Design/Current%20App/MODSExplorer/app/src/main/res/values-v14/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- API 14 theme customizations can go here. -->
     </style>
-    <!-- From: file:/Users/osmarjuniorcr/Desktop/Museum%20Ft%20lauderdale/MODSExplorer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v14/values.xml -->
+    <!-- From: file:/C:/Users/xxddr/Desktop/Andres/Github/Project-Design/Current%20App/MODSExplorer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v14/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.AppCompat.Base.SearchResult.Subtitle" parent="@android:TextAppearance.Holo.SearchResult.Subtitle"/>
     <style name="TextAppearance.AppCompat.Base.SearchResult.Title" parent="@android:TextAppearance.Holo.SearchResult.Title"/>

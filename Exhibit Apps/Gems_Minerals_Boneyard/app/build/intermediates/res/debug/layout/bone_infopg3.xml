@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newboneyardscreen"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    </FrameLayout>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton13"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/left_arrow"
+        android:layout_alignBottom="@+id/button5" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:id="@+id/Button17"
+        android:background="@drawable/button_blue"
+        android:layout_marginLeft="25dp"
+        android:layout_alignTop="@+id/Button18"
+        android:layout_alignParentLeft="true"
+        android:text="Paleozoic"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:id="@+id/Button18"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_blue"
+        android:text="Mesozoic"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:id="@+id/Button19"
+        android:background="@drawable/button_blue"
+        android:layout_marginRight="25dp"
+        android:layout_alignTop="@+id/Button18"
+        android:layout_alignParentRight="true"
+        android:text="Cenozoic"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="580dp"
+        android:id="@+id/textView34"
+        android:layout_below="@+id/Button17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/bigboneyardrect"  >
+
+    </TextView>
+
+
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageView3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignTop="@+id/textView34"
+        android:layout_alignLeft="@+id/textView34"
+        android:background="@drawable/trexcirc"
+        android:src="@drawable/ammonite" />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200.5dp"
+        android:layout_height="80dp"
+        android:text="Home"
+        android:id="@+id/button5"
+        android:textSize="30dp"
+        android:background="@drawable/button_blue"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="240dp"
+        android:id="@+id/imageView7"
+        android:layout_marginRight="25dp"
+        android:layout_alignRight="@+id/textView34"
+        android:layout_alignTop="@+id/imageView3"
+        android:background="@drawable/dinoscrollinfo"
+        android:layout_alignBottom="@+id/imageView3" />
+
+    <ScrollView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:id="@+id/textView2"
+        android:layout_marginRight="25dp"
+        android:fillViewport="false"
+        android:layout_alignRight="@+id/textView34"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ammonites: (400-66 mya) An extinct group of marine invertebrates and mollusks that are closely related to today’s octopuses, squids, and cuttlefish. Their name “ammonite,” stems from the term “Ammonis Cornua,” or rather the “Horns of Ammon” because they resembled rams’ horns. First appearing around the Devonian period, the species then died out around the Cretaceous. Acting as excellent index fossils, these species assist in determining the relative geologic age or time period of respective rock layers.                        "
+            android:id="@+id/textView35"
+            android:layout_alignBottom="@+id/scrollView"
+            android:layout_alignLeft="@+id/scrollView"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_above="@+id/imageView4"
+            android:editable="true"
+            android:textColor="#ff000000"
+            android:textSize="18dp" />
+    </ScrollView>
+
+
+</RelativeLayout><!-- From: file:/C:/Users/Lindsey_2/AndroidStudioProjects/minerals_boneyard_app/app/src/main/res/layout/bone_infopg3.xml -->

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newboneyardscreen"    >
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton12"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/left_arrow" />
+
+    <ScrollView
+        android:layout_width="500dp"
+        android:layout_height="580dp"
+        android:id="@+id/textView34"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/bigboneyardrect"
+        android:layout_centerInParent="true"        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cenozoic Era: Taking place from around 65 million years ago to present day. It is the age of the mammals, because the extinction of prior species, allowed for many types of mammals to take dominance and greatly change. Split into 3 periods, the Cenozoic overs how many significant events transpire over a relatively short duration of time.
+•	Paleogene: (65-55 mya) From the extinction of the dinosaurs to huge birds and mammals. Mostly savannah like environments were met with a general warming of the earth.
+•	Neogene: (23-3 mya) Many more species continue on evolving leading to an array of more modern like species.
+•	Quaternary: (3 mya- today) Modern animals, dramatic climate changes, and people.
+"
+            android:id="@+id/textView35"
+            android:layout_alignBottom="@+id/scrollView"
+            android:layout_alignLeft="@+id/scrollView"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_above="@+id/imageView4"
+            android:editable="true"
+            android:textColor="#ff000000"
+            android:textSize="28dp" />
+    </ScrollView>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="85dp"
+        android:id="@+id/textView2"
+        android:textSize="60dp"
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"
+        android:textColor="#ff000000"
+        android:gravity="center"
+        android:text="Cenozoic"
+        android:background="@drawable/button_blue"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200.5dp"
+        android:layout_height="80dp"
+        android:text="Home"
+        android:id="@+id/button5"
+        android:textSize="30dp"
+        android:background="@drawable/button_blue"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton15"
+        android:background="@drawable/left_arrow"
+        android:layout_alignBottom="@+id/button5" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Lindsey_2/AndroidStudioProjects/minerals_boneyard_app/app/src/main/res/layout/cenozoic.xml -->

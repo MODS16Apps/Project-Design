@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<ScrollView
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:padding="10dip">
+   <TextView
+      android:id="@+id/about_content"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="The minerals in the museum have been lent to us from Broward College's
+ own collection. There is a diverse assortment ranging from commonly
+ know minerals to lesser known ones. The boneyard has cases of ammonites
+ as well as bone and egg casts. Towards the back there is a 3-D model of
+ a habitat setting along with some dinosaur models.
+ Credits: The app was made by Lindsey Berkowitz, Piero Salini, and Savion Mercedes, in addition to
+ assistance from FAU teachers for the Museum of Discovery and Science in Ft. Lauderdale, Florida.
+ We would like to thank the Museum of Discovery and Science for giving us the
+ opportunity to help in the development of their app as well as FAU for teaching us the class
+ and sharing their campus."
+
+       />
+</ScrollView>

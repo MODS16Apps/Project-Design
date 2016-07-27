@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.mods.app.minerals_boneyard"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/mods"
+        android:label="@string/app_name" >
+        <activity
+            android:name="org.mods.app.minerals_boneyard.MineralsBoneyard"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.About"
+            android:label="@string/about_title"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.Prefs"
+            android:label="@string/settings_title" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.Game"
+            android:label="@string/game_title" />
+        <activity
+            android:name="org.mods.app.minerals_boneyard.boneyard"
+            android:label="@string/title_activity_boneyard" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.bone_info1"
+            android:label="@string/title_activity_bone_infopg1" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.bone_info2"
+            android:label="@string/title_activity_bone_infopg2" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.bone_info3"
+            android:label="@string/title_activity_bone_infopg3" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.mesozoic"
+            android:label="@string/title_activity_mesozoic" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.cenozoic"
+            android:label="@string/title_activity_cenozoic" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.paleozoic"
+            android:label="@string/title_activity_paleozoic" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.minerals"
+            android:label="@string/title_activity_minerals" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.gems1"
+            android:label="@string/title_activity_gems1" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.gems2"
+            android:label="@string/title_activity_gems2" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.gems3"
+            android:label="@string/title_activity_gems3" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.gems4"
+            android:label="@string/title_activity_gems4" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.pyrite"
+            android:label="@string/title_activity_pyrite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.quartz"
+            android:label="@string/title_activity_quartz" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.galena"
+            android:label="@string/title_activity_galena" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.gypsum"
+            android:label="@string/title_activity_gypsum" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.mimetite"
+            android:label="@string/title_activity_mimetite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.biotite_mica"
+            android:label="@string/title_activity_biotite_mica" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.okenite"
+            android:label="@string/title_activity_biotite_mica" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.celestite"
+            android:label="@string/title_activity_biotite_mica" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.apophyllite"
+            android:label="@string/title_activity_apophyllite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.dioptase"
+            android:label="@string/title_activity_dioptase" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.fluorite"
+            android:label="@string/title_activity_fluorite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.malachite"
+            android:label="@string/title_activity_malachite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.vanadinite"
+            android:label="@string/title_activity_vanadinite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.tourmaline"
+            android:label="@string/title_activity_tourmaline" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.rhodochrosite"
+            android:label="@string/title_activity_rhodochrosite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.calcite"
+            android:label="@string/title_activity_calcite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.garnets"
+            android:label="@string/title_activity_garnets" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.kyanite"
+            android:label="@string/title_activity_kyanite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.wulfenite"
+            android:label="@string/title_activity_wulfenite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.azurite"
+            android:label="@string/title_activity_azurite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.sphalerite"
+            android:label="@string/title_activity_sphalerite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.barite"
+            android:label="@string/title_activity_barite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.copper"
+            android:label="@string/title_activity_copper" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.chrysocolla"
+            android:label="@string/title_activity_chrysocolla" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.hematite"
+            android:label="@string/title_activity_hematite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.hubnerite"
+            android:label="@string/title_activity_hubnerite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.aragonite"
+            android:label="@string/title_activity_aragonite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.adamite"
+            android:label="@string/title_activity_adamite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.halite"
+            android:label="@string/title_activity_halite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.amethyst"
+            android:label="@string/title_activity_amethyst" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.opal"
+            android:label="@string/title_activity_opal" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.dolomite"
+            android:label="@string/title_activity_dolomite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.smithsonite"
+            android:label="@string/title_activity_smithsonite" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.citrine"
+            android:label="@string/title_activity_citrine" >
+        </activity>
+        <activity
+            android:name="org.mods.app.minerals_boneyard.quizActivity"
+            android:label="@string/title_activity_activity_quiz" >
+        </activity>
+    </application>
+
+</manifest>

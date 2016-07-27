@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newboneyardscreen"
+    >
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton12"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/left_arrow" />
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton13"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/right_arrow" />
+
+    <ScrollView
+        android:layout_width="500dp"
+        android:layout_height="600dp"
+        android:id="@+id/textView34"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/bigboneyardrect"
+        android:layout_centerInParent="true" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:text="Mesozoic Era: Took place from around 252 to 66 million years ago. The Mesozoic was the time of large reptiles. Split into 3 geologic periods, this era saw changes in warming and cooling during the time of the supercontinent Pangea.
+•	Triassic: (250-200 mya) The age of the first larger reptiles: the Ichthyosaurs, Nothosaurs, and Pterosaurs.
+•	Jurassic: (200-145 mya) The age of the dinosaurs. This period saw how dinosaurs and other reptiles became the dominant race on land and in sea.
+•	Cretaceous: (145-66 mya) The last span of the dinosaurs. Mosasaurs replaces Ichthyosaurs in the oceans, Pterosaurs got larger, and other dinosaurs took their last grasp of dominance.
+
+"
+            android:id="@+id/textView35"
+
+            android:layout_alignLeft="@+id/scrollView"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_above="@+id/imageView4"
+            android:editable="true"
+            android:textColor="#ff000000"
+            android:textSize="28dp" />
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="85dp"
+        android:id="@+id/textView2"
+        android:textSize="60dp"
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"
+        android:textColor="#ff000000"
+        android:gravity="center"
+        android:text="Mesozoic"
+        android:background="@drawable/button_blue"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200.5dp"
+        android:layout_height="80dp"
+        android:text="Home"
+        android:id="@+id/button5"
+        android:textSize="30dp"
+        android:background="@drawable/button_blue"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton15"
+        android:background="@drawable/left_arrow"
+        android:layout_alignBottom="@+id/button5" />
+
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newboneyardscreen"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:id="@+id/Button17"
+        android:background="@drawable/button_blue"
+        android:layout_marginLeft="25dp"
+        android:layout_alignTop="@+id/Button18"
+        android:layout_alignParentLeft="true"
+        android:text="Paleozoic"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:id="@+id/Button18"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_blue"
+        android:text="Mesozoic"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:id="@+id/Button19"
+        android:background="@drawable/button_blue"
+        android:layout_marginRight="25dp"
+        android:layout_alignTop="@+id/Button18"
+        android:layout_alignParentRight="true"
+        android:text="Cenozoic"
+        android:textSize="25dp" />
+
+    <ScrollView
+        android:layout_width="500dp"
+        android:layout_height="580dp"
+        android:text="New Text"
+        android:id="@+id/textView34"
+        android:fillViewport="false"
+        android:layout_below="@+id/Button17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/bigboneyardrect"  >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView37" >
+
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/imageView3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignTop="@+id/textView34"
+            android:layout_alignLeft="@+id/textView34"
+            android:background="@drawable/trexcirc" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/imageView4"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/anklyo"
+            android:layout_below="@+id/imageView3"
+            android:layout_alignLeft="@+id/imageView3" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/imageView5"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tricercirc"
+            android:layout_below="@+id/imageView4"
+            android:layout_alignLeft="@+id/imageView4" />
+
+
+
+
+        </TextView>
+
+        <ScrollView
+            android:layout_width="280dp"
+            android:layout_height="260dp"
+            android:id="@+id/scrollView2"
+            android:background="@drawable/dinoscrollinfo"
+            android:layout_marginRight="25dp"
+            android:layout_alignRight="@+id/textView34"
+            android:layout_above="@+id/imageView4"
+            android:layout_alignTop="@+id/imageView3" >
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="260dp"
+                android:text="New Text"
+                android:id="@+id/textView35"
+                android:layout_marginRight="25dp"
+                android:layout_alignRight="@+id/textView34"
+                android:layout_above="@+id/imageView4"/>
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="280dp"
+            android:layout_height="260dp"
+            android:id="@+id/scrollView3"
+            android:background="@drawable/dinoscrollinfo"
+            android:layout_alignLeft="@+id/scrollView2"
+            android:layout_above="@+id/imageView5"
+            android:layout_alignTop="@+id/imageView4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/scrollView"
+                android:layout_alignLeft="@+id/scrollView"
+                android:layout_alignTop="@+id/scrollView"
+                android:text="New Text"
+                android:id="@+id/textView36"/>
+        </ScrollView>
+
+
+    </ScrollView>
+
+</RelativeLayout>
